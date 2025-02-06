@@ -1,0 +1,24 @@
+{
+  "name": "@x1n13y84issmd42/455fw",
+  "version": "1.0.7",
+  "description": "A small Nest-based app framework.",
+  "main": "src/index.ts",
+  "scripts": {},
+  "directories": {
+    "lib": "src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^11.0.7",
+    "@nestjs/core": "^11.0.7",
+    "@nestjs/mongoose": "^11.0.1",
+    "@nestjs/platform-express": "^11.0.7",
+    "mongoose": "^8.9.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.13.1"
+  }
+}
