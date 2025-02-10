@@ -26,6 +26,8 @@
   "exports": {
     ".": "./src/index.ts",
     "./mongoose": "./src/reexport/mongoose.ts",
+    "./@nestjs/core": "./src/reexport/nestjs_core.ts",
+    "./@nestjs/common": "./src/reexport/nestjs_common.ts",
     "./class-validator": "./src/reexport/class-validator.ts",
     "./class-transformer": "./src/reexport/class-transformer.ts"
   }
