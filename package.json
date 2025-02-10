@@ -14,11 +14,19 @@
     "@nestjs/core": "^11.0.7",
     "@nestjs/mongoose": "^11.0.1",
     "@nestjs/platform-express": "^11.0.7",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "mongoose": "^8.9.6"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^22.13.1"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./mongoose": "./src/reexport/mongoose.ts",
+    "./class-validator": "./src/reexport/class-validator.ts",
+    "./class-transformer": "./src/reexport/class-transformer.ts"
   }
 }

@@ -1,7 +1,7 @@
 
 import { Catch } from '@nestjs/common';
 import { BaseFilter, ErrorDTO } from './Base.filter';
-import { BaseError } from './Base.error';
+import { BaseError } from '../../errors/Base.error';
 
 @Catch(BaseError)
 export class BaseErrorFilter extends BaseFilter<BaseError> {
