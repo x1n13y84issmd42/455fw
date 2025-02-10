@@ -18,4 +18,4 @@ import { BaseErrorFilter } from "./BaseError.filter";
 })
 export class ExceptionFiltersModule {}
 
-export * from './Base.error';
+export * from '../../errors';

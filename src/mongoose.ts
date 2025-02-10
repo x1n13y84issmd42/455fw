@@ -1,1 +1,0 @@
-export { Prop, Schema, SchemaFactory, InjectModel } from "@nestjs/mongoose";
