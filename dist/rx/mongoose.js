@@ -14,8 +14,5 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Model = void 0;
-__exportStar(require("@nestjs/mongoose"), exports);
-var mongoose_1 = require("mongoose");
-Object.defineProperty(exports, "Model", { enumerable: true, get: function () { return mongoose_1.Model; } });
+__exportStar(require("mongoose"), exports);
 //# sourceMappingURL=mongoose.js.map
