@@ -25,10 +25,11 @@
   },
   "exports": {
     ".": "./dist/index.js",
-    "./mongoose": "./dist/reexport/mongoose.js",
-    "./@nestjs/core": "./dist/reexport/nestjs_core.js",
-    "./@nestjs/common": "./dist/reexport/nestjs_common.js",
-    "./class-validator": "./dist/reexport/class-validator.js",
-    "./class-transformer": "./dist/reexport/class-transformer.js"
+    "./mongoose": "./dist/rx/mongoose.js",
+    "./@nestjs/core": "./dist/rx/nestjs_core.js",
+    "./@nestjs/common": "./dist/rx/nestjs_common.js",
+    "./@nestjs/mongoose": "./dist/rx/nestjs_mongoose.js",
+    "./class-validator": "./dist/rx/class-validator.js",
+    "./class-transformer": "./dist/rx/class-transformer.js"
   }
 }

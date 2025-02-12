@@ -15,4 +15,4 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("@nestjs/mongoose"), exports);
-//# sourceMappingURL=nestjs-mongoose.js.map
+//# sourceMappingURL=nestjs_mongoose.js.map
