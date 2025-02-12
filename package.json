@@ -2,10 +2,10 @@
   "name": "@x1n13y84issmd42/455fw",
   "version": "1.0.10",
   "description": "A small Nest-based app framework.",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {},
   "directories": {
-    "lib": "src"
+    "lib": "dist"
   },
   "author": "",
   "license": "ISC",
@@ -24,11 +24,12 @@
     "@types/node": "^22.13.1"
   },
   "exports": {
-    ".": "./src/index.ts",
-    "./mongoose": "./src/reexport/mongoose.ts",
-    "./@nestjs/core": "./src/reexport/nestjs_core.ts",
-    "./@nestjs/common": "./src/reexport/nestjs_common.ts",
-    "./class-validator": "./src/reexport/class-validator.ts",
-    "./class-transformer": "./src/reexport/class-transformer.ts"
+    ".": "./dist/index.js",
+    "./mongoose": "./dist/rx/mongoose.js",
+    "./@nestjs/core": "./dist/rx/nestjs_core.js",
+    "./@nestjs/common": "./dist/rx/nestjs_common.js",
+    "./@nestjs/mongoose": "./dist/rx/nestjs_mongoose.js",
+    "./class-validator": "./dist/rx/class-validator.js",
+    "./class-transformer": "./dist/rx/class-transformer.js"
   }
 }
